@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "109008264793",
+    "firebase_url": "https://uberhub-c25e3.firebaseio.com",
+    "project_id": "uberhub-c25e3",
+    "storage_bucket": "uberhub-c25e3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:109008264793:android:e32a98ca226c18c4309b48",
+        "android_client_info": {
+          "package_name": "br.com.pedrohenriquemoura.uberhub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "109008264793-riplpc8c783dbe4d6kgu66j854niifgn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1q_9hjZ3KKFPKWXL2u2MLYFdUeFvgzFA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "109008264793-riplpc8c783dbe4d6kgu66j854niifgn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

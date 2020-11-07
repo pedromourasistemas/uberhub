@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.com.pedrohenriquemoura.uberhub">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_uberhub"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_uberhub"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Uberhub">
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
