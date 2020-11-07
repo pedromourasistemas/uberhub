@@ -1,9 +1,12 @@
-package br.com.pedrohenriquemoura.uberhub
+package br.com.pedrohenriquemoura.uberhub.splash
 
+import android.content.Intent
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
 import androidx.appcompat.app.AppCompatActivity
+import br.com.pedrohenriquemoura.uberhub.R
+import br.com.pedrohenriquemoura.uberhub.SigninActivity
 
 class SplashActivity : AppCompatActivity() {
 
@@ -19,9 +22,9 @@ class SplashActivity : AppCompatActivity() {
 
         Handler(Looper.getMainLooper()).postDelayed({
             /* Create an Intent that will start the Menu-Activity. */
-            /*val mainIntent = Intent(this, Menu::class.java)
-            startActivity(mainIntent)
-            finish()*/
+            val signinActivity = Intent(this, SigninActivity::class.java)
+            startActivity(signinActivity)
+            finish()
         }, 4000)
     }
 }
