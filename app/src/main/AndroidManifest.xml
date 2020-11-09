@@ -9,7 +9,7 @@
         android:roundIcon="@drawable/ic_uberhub"
         android:supportsRtl="true"
         android:theme="@style/Theme.Uberhub">
-        <activity android:name=".TesteActivity"></activity>
+
         <activity android:name=".splash.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,6 +23,10 @@
         <activity
             android:name=".SignupActivity"
             android:label="@string/title_activity_signup" />
+        <activity
+            android:name=".OpportunityActivity"
+            android:label="@string/title_activity_opportunity" />
+        <activity android:name=".TesteActivity" />
     </application>
 
 </manifest>

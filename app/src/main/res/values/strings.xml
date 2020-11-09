@@ -3,6 +3,7 @@
 
     <string name="title_activity_signin">Login</string>
     <string name="title_activity_signup">Cadastro de Pessoas</string>
+    <string name="title_activity_opportunity">Cadastro de Oportunidades</string>
 
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Password</string>

@@ -49,8 +49,8 @@ class SigninActivity : AppCompatActivity() {
                     Toast.makeText(baseContext, "Usuário logado com sucesso!",
                         Toast.LENGTH_SHORT).show()
 
-                    val testeActivity = Intent(this, TesteActivity::class.java)
-                    startActivity(testeActivity)
+                    val activity = Intent(this, OpportunityActivity::class.java)
+                    startActivity(activity)
                     finish()
                 } else {
                     Toast.makeText(baseContext, "Login falhou!",
