@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/flow_signin"
+    app:startDestination="@id/signinCreateAccountFragment">
+
+    <fragment
+        android:id="@+id/signinCreateAccountFragment"
+        android:name="br.com.pedrohenriquemoura.uberhub.SigninCreateAccountFragment"
+        android:label="fragment_signin_create_account"
+        tools:layout="@layout/fragment_signin_create_account" />
+</navigation>
