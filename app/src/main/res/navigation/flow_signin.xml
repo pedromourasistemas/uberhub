@@ -4,11 +4,17 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/flow_signin"
-    app:startDestination="@id/signinCreateAccountFragment">
+    app:startDestination="@id/SigninCreateAccountFragment">
 
     <fragment
-        android:id="@+id/signinCreateAccountFragment"
+        android:id="@+id/SigninCreateAccountFragment"
         android:name="br.com.pedrohenriquemoura.uberhub.SigninCreateAccountFragment"
         android:label="fragment_signin_create_account"
         tools:layout="@layout/fragment_signin_create_account" />
+
+    <fragment
+        android:id="@+id/SigninInformationEmailFragment"
+        android:name="br.com.pedrohenriquemoura.uberhub.SigninInformationEmailFragment"
+        android:label="fragment_signin_information_email"
+        tools:layout="@layout/fragment_signin_information_email" />
 </navigation>
