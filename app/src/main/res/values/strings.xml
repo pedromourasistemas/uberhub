@@ -1,7 +1,6 @@
 <resources>
     <string name="app_name">Uberhub</string>
 
-    <string name="title_activity_signin">Login</string>
     <string name="title_activity_signup">Cadastro de Pessoas</string>
     <string name="title_activity_opportunity">Cadastro de Oportunidades</string>
 
@@ -16,11 +15,21 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
+    <!-- Activity Title Signin -->
+    <string name="title_activity_signin">Login</string>
+
     <!-- Fragment Signin Create Account -->
     <string name="signin_create_account_txt_subtitle">Um Ecossistema de\n possibilidades</string>
     <string name="signin_create_account_btn_create_account">Criar conta</string>
-    <string name="signin_create_account_label_have_account">Já tem uma conta?</string>
-    <string name="signin_create_account_label_click_here">Clique aqui</string>
+    <string name="signin_create_account_label_have_account">Já tem uma conta? <b>Clique aqui</b></string>
 
+    <!-- Fragment Signin Information E-mail -->
+    <string name="signin_information_email_title_welcome">Bem-vindo de volta!</string>
+    <string name="signin_information_email_label_email">Qual é o seu e-mail?</string>
+
+    <!-- Fragment Signin Create Account -->
+    <string name="signinn_information_password_title">Qual é a sua senha?</string>
+    <string name="signinn_information_password_label_not_remember_password">Esqueceu sua senha?</string>
+    <string name="signinn_information_password_btn_signin">Entrar</string>
 
 </resources>

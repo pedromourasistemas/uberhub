@@ -14,10 +14,16 @@ class SigninActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+        try {
+            this.supportActionBar!!.hide()
+        } catch (e: NullPointerException) {
+        }
+
         setContentView(R.layout.activity_signin)
 
         // Initialize Firebase Auth
-        auth = Firebase.auth
+        /*auth = Firebase.auth
 
         val username = findViewById<EditText>(R.id.username)
         val password = findViewById<EditText>(R.id.password)
@@ -36,7 +42,7 @@ class SigninActivity : AppCompatActivity() {
             val signupActivity = Intent(this, SignupActivity::class.java)
             startActivity(signupActivity)
             finish()
-        }
+        }*/
 
     }
 

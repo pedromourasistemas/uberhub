@@ -61,10 +61,11 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginEnd="16dp"
-            android:layout_marginBottom="40dp"
+            android:layout_marginBottom="30dp"
             android:background="@drawable/rounded_button_purple"
             android:text="@string/signin_create_account_btn_create_account"
             android:textAllCaps="true"
+            android:onClick="createAccount"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -75,25 +76,13 @@
             android:id="@+id/label_have_account"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="100dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="50dp"
             android:text="@string/signin_create_account_label_have_account"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/btn_create_account" />
-
-        <TextView
-            android:id="@+id/label_click_here"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="5dp"
-            android:layout_marginEnd="80dp"
-            android:layout_marginBottom="5dp"
-            android:text="@string/signin_create_account_label_click_here"
-            android:textColor="#101010"
-            android:textStyle="bold"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/label_have_account" />
+            app:layout_constraintTop_toBottomOf="@+id/btn_create_account"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"/>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </FrameLayout>

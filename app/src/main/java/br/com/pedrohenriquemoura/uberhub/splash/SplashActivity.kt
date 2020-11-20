@@ -21,9 +21,8 @@ class SplashActivity : AppCompatActivity() {
         setContentView(R.layout.activity_splash)
 
         Handler(Looper.getMainLooper()).postDelayed({
-            /* Create an Intent that will start the Menu-Activity. */
-            val signinActivity = Intent(this, SigninActivity::class.java)
-            startActivity(signinActivity)
+            val activity = Intent(this, SigninActivity::class.java)
+            startActivity(activity)
             finish()
         }, 4000)
     }

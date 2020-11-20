@@ -10,11 +10,29 @@
         android:id="@+id/SigninCreateAccountFragment"
         android:name="br.com.pedrohenriquemoura.uberhub.SigninCreateAccountFragment"
         android:label="fragment_signin_create_account"
-        tools:layout="@layout/fragment_signin_create_account" />
+        tools:layout="@layout/fragment_signin_create_account">
+
+        <action
+            android:id="@+id/action_fragment_signin_create_account_to_fragment_signin_information_email"
+            app:destination="@id/SigninInformationEmailFragment"
+            app:popUpToInclusive="false" />
+    </fragment>
 
     <fragment
         android:id="@+id/SigninInformationEmailFragment"
         android:name="br.com.pedrohenriquemoura.uberhub.SigninInformationEmailFragment"
         android:label="fragment_signin_information_email"
-        tools:layout="@layout/fragment_signin_information_email" />
+        tools:layout="@layout/fragment_signin_information_email">
+
+        <action
+            android:id="@+id/action_fragment_signin_information_email_to_fragment_signin_information_password"
+            app:destination="@id/SigninInformationPasswordFragment"
+            app:popUpToInclusive="false" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/SigninInformationPasswordFragment"
+        android:name="br.com.pedrohenriquemoura.uberhub.SigninInformationPasswordFragment"
+        android:label="fragment_signin_information_password"
+        tools:layout="@layout/fragment_signin_information_password" />
 </navigation>
