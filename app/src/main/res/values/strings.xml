@@ -21,7 +21,16 @@
     <!-- Fragment Signin Create Account -->
     <string name="signin_create_account_txt_subtitle">Um Ecossistema de\n possibilidades</string>
     <string name="signin_create_account_btn_create_account">Criar conta</string>
-    <string name="signin_create_account_label_have_account">Já tem uma conta? <b>Clique aqui</b></string>
+    <string name="signin_create_account_btn_signin">Fazer login</string>
+    <string name="signin_create_account_label_have_account">Já tem uma conta? <font color='#5000B8'><b>Clique aqui</b></font></string>
+
+    <!-- Fragment Signin With Accounts -->
+    <string name="signin_with_accounts_txt_subtitle">Bem-vindo de volta!</string>
+    <string name="signin_with_accounts_btn_input_account_uberhub">Entrar com conta Uberhub</string>
+    <string name="signin_with_accounts_btn_input_account_google">Entrar com Google</string>
+    <string name="signin_with_accounts_btn_input_account_facebook">Entrar com Facebook</string>
+    <string name="signin_with_accounts_btn_input_account_github">Entrar com Github</string>
+    <string name="signin_with_accounts_btn_input_account_linkedin">Entrar com Linkedin</string>
 
     <!-- Fragment Signin Information E-mail -->
     <string name="signin_information_email_title_welcome">Bem-vindo de volta!</string>

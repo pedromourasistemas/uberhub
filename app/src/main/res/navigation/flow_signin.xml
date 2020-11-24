@@ -4,7 +4,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/flow_signin"
-    app:startDestination="@id/SigninCreateAccountFragment">
+    app:startDestination="@id/SigninWithAccountsFragment">
 
     <fragment
         android:id="@+id/SigninCreateAccountFragment"
@@ -13,7 +13,19 @@
         tools:layout="@layout/fragment_signin_create_account">
 
         <action
-            android:id="@+id/action_fragment_signin_create_account_to_fragment_signin_information_email"
+            android:id="@+id/action_fragment_signin_create_account_to_fragment_signin_with_accounts"
+            app:destination="@id/SigninWithAccountsFragment"
+            app:popUpToInclusive="false" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/SigninWithAccountsFragment"
+        android:name="br.com.pedrohenriquemoura.uberhub.SigninWithAccountsFragment"
+        android:label="fragment_signin_with_accounts"
+        tools:layout="@layout/fragment_signin_with_accounts">
+
+        <action
+            android:id="@+id/action_fragment_signin_with_accounts_to_fragment_signin_information_email"
             app:destination="@id/SigninInformationEmailFragment"
             app:popUpToInclusive="false" />
     </fragment>
@@ -35,4 +47,6 @@
         android:name="br.com.pedrohenriquemoura.uberhub.SigninInformationPasswordFragment"
         android:label="fragment_signin_information_password"
         tools:layout="@layout/fragment_signin_information_password" />
+
+
 </navigation>
