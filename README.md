@@ -11,3 +11,4 @@ Build an application where you can centralize all the information about the diss
 - Firebase Realtime Database
 - Git Flow 
 - Constraint Layout
+- Databinding
