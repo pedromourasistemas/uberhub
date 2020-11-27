@@ -1,11 +1,13 @@
-# Aplicativo Uberhub
-Aplicativo da comunidade Uberhub - Uberlândia - MG
+# App Uberhub
+App for community inovation, entrepernurship and technologie the Uberlândia - MG, Uberhub
 
 # Objetivo
-Construir um aplicativo onde centralize todas as informações de divulgação de Oportunidade de trabalho, eventos, e conteúdo relevantes para que a comunidade cresça cada dia mais, se fortalecendo e fortalecendo a colaboratividade e ação.
+Build an application where you can centralize all the information about the dissemination of work opportunities, events, and relevant content so that the community grows every day, strengthening and strengthening collaboration and action.
 
-# Tecnologias e Arquitetura escolhidas
-- Linguagem Kotlin
-- Arquitetura VIPER
+# Technologies and Architecture chosen
+- Kotlin
+- Architecture VIPER
 - Firebase Authentication
 - Firebase Realtime Database
+- Git Flow 
+- Constraint Layout
