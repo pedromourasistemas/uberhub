@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/flow_signup"
+    app:startDestination="@id/signupNameInformationFragment">
+
+    <fragment
+        android:id="@+id/signupNameInformationFragment"
+        android:name="br.com.pedrohenriquemoura.uberhub.SignupNameInformationFragment"
+        android:label="fragment_signup_name_information"
+        tools:layout="@layout/fragment_signup_name_information">
+
+        <action
+            android:id="@+id/action_fragment_signup_name_information_to_fragment_signup_birthday"
+            app:destination="@id/SignupBirthdayFragment"
+            app:popUpToInclusive="false" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/SignupBirthdayFragment"
+        android:name="br.com.pedrohenriquemoura.uberhub.SignupBirthdayFragment"
+        android:label="fragment_signup_birthday"
+        tools:layout="@layout/fragment_signup_birthday">
+
+        <action
+            android:id="@+id/action_fragment_signup_birthday_to_fragment_signup_phone"
+            app:destination="@id/SignupPhoneFragment"
+            app:popUpToInclusive="false" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/SignupPhoneFragment"
+        android:name="br.com.pedrohenriquemoura.uberhub.SignupPhoneFragment"
+        android:label="fragment_signup_phone"
+        tools:layout="@layout/fragment_signup_phone">
+
+        <action
+            android:id="@+id/action_fragment_signup_phone_to_fragment_signup_city"
+            app:destination="@id/SignupCityFragment"
+            app:popUpToInclusive="false" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/SignupCityFragment"
+        android:name="br.com.pedrohenriquemoura.uberhub.SignupCityFragment"
+        android:label="fragment_signup_city"
+        tools:layout="@layout/fragment_signup_city">
+
+        <action
+            android:id="@+id/action_fragment_signup_city_to_fragment_signup_email"
+            app:destination="@id/SignupEmailFragment"
+            app:popUpToInclusive="false" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/SignupEmailFragment"
+        android:name="br.com.pedrohenriquemoura.uberhub.SignupEmailFragment"
+        android:label="fragment_signup_email"
+        tools:layout="@layout/fragment_signup_email">
+
+        <action
+            android:id="@+id/action_fragment_signup_email_to_fragment_signup_password"
+            app:destination="@id/SignupPasswordFragment"
+            app:popUpToInclusive="false" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/SignupPasswordFragment"
+        android:name="br.com.pedrohenriquemoura.uberhub.SignupPasswordFragment"
+        android:label="fragment_signup_password"
+        tools:layout="@layout/fragment_signup_password">
+
+        <action
+            android:id="@+id/action_fragment_signup_password_to_fragment_signup_created_success"
+            app:destination="@id/SignupCreatedSuccessFragment"
+            app:popUpToInclusive="false" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/SignupCreatedSuccessFragment"
+        android:name="br.com.pedrohenriquemoura.uberhub.SignupCreatedSuccessFragment"
+        android:label="fragment_signup_created_success"
+        tools:layout="@layout/fragment_signup_created_success" />
+</navigation>

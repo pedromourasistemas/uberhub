@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SigninInformationEmailFragment">
+    tools:context=".SignupCreatedSuccessFragment">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/container"
@@ -12,31 +12,34 @@
         android:layout_height="match_parent">
 
         <TextView
-            android:id="@+id/title"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="16dp"
-            android:text="@string/signin_information_email_label_email"
-            android:textColor="@color/black_general"
-            android:textSize="24dp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
-        <EditText
-            android:id="@+id/edt_email"
+            android:id="@+id/textView9"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="40dp"
             android:layout_marginEnd="16dp"
-            android:layout_marginBottom="50dp"
-            android:ems="10"
-            android:inputType="text"
-            app:layout_constraintBottom_toBottomOf="parent"
+            android:text="Conta criada com sucesso!"
+            android:textColor="@color/color_main"
+            android:textSize="34dp"
+            android:textStyle="bold"
+            android:textAlignment="center"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="328dp"
+            android:layout_height="328dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView9"
+            android:src="@drawable/account_created" />
 
         <Button
             android:id="@+id/btn_continue"
@@ -46,27 +49,13 @@
             android:layout_marginEnd="16dp"
             android:layout_marginBottom="50dp"
             android:background="@drawable/rounded_button_purple"
-            android:text="Continuar"
+            android:text="Começar a usar"
             android:textAllCaps="true"
-            android:enabled="false"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/img_center"
             app:layout_constraintVertical_bias="0.97" />
-
-        <TextView
-            android:id="@+id/label_have_account"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="50dp"
-            android:layout_marginTop="15dp"
-            android:layout_marginEnd="50dp"
-            android:text="@string/signin_create_account_label_have_account"
-            app:layout_constraintTop_toBottomOf="@+id/btn_continue"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"/>
-
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </FrameLayout>
