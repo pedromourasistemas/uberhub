@@ -1,12 +1,12 @@
-package br.com.pedrohenriquemoura.uberhub
+package br.com.pedrohenriquemoura.uberhub.ui.signin
 
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import android.widget.*
+import br.com.pedrohenriquemoura.uberhub.OpportunityActivity
+import br.com.pedrohenriquemoura.uberhub.R
 import com.google.firebase.auth.FirebaseAuth
-import com.google.firebase.auth.ktx.auth
-import com.google.firebase.ktx.Firebase
 
 class SigninActivity : AppCompatActivity() {
 

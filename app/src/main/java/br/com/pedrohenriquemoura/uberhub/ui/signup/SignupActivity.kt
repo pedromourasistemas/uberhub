@@ -1,12 +1,12 @@
-package br.com.pedrohenriquemoura.uberhub
+package br.com.pedrohenriquemoura.uberhub.ui.signup
 
 import android.os.Bundle
-import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import android.widget.Button
 import android.widget.EditText
 import android.widget.ProgressBar
 import android.widget.Toast
+import br.com.pedrohenriquemoura.uberhub.R
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase

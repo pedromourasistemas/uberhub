@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Uberhub">
 
-        <activity android:name=".splash.SplashActivity">
+        <activity android:name=".ui.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -18,15 +18,23 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".SigninActivity"
+            android:name=".ui.signin.SigninInitialActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ui.signin.SigninActivity"
+            android:screenOrientation="portrait"
             android:label="@string/title_activity_signin" />
         <activity
-            android:name=".SignupActivity"
+            android:name=".ui.signup.SignupActivity"
+            android:screenOrientation="portrait"
             android:label="@string/title_activity_signup" />
         <activity
             android:name=".OpportunityActivity"
+            android:screenOrientation="portrait"
             android:label="@string/title_activity_opportunity" />
+
         <activity android:name=".TesteActivity" />
+
     </application>
 
 </manifest>
