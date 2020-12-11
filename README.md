@@ -6,7 +6,7 @@ Build an application where you can centralize all the information about the diss
 
 # Technologies and Architecture chosen
 - Kotlin
-- Architecture VIPER
+- Architecture MVVM
 - Firebase Authentication
 - Firebase Realtime Database
 - Git Flow 
