@@ -1,4 +1,4 @@
-package br.com.pedrohenriquemoura.uberhub.ui.signup
+package br.com.pedrohenriquemoura.uberhub.model
 
 class SignupModel(
     val fullName: String,

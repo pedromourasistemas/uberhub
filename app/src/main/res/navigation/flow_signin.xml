@@ -8,7 +8,7 @@
 
     <fragment
         android:id="@+id/SigninWithAccountsFragment"
-        android:name="br.com.pedrohenriquemoura.uberhub.ui.signin.SigninWithAccountsFragment"
+        android:name="br.com.pedrohenriquemoura.uberhub.signin.view.SigninWithAccountsFragment"
         android:label="fragment_signin_with_accounts"
         tools:layout="@layout/fragment_signin_with_accounts">
 
@@ -20,7 +20,7 @@
 
     <fragment
         android:id="@+id/SigninInformationEmailFragment"
-        android:name="br.com.pedrohenriquemoura.uberhub.ui.signin.SigninInformationEmailFragment"
+        android:name="br.com.pedrohenriquemoura.uberhub.signin.view.SigninInformationEmailFragment"
         android:label="fragment_signin_information_email"
         tools:layout="@layout/fragment_signin_information_email">
 
@@ -32,7 +32,7 @@
 
     <fragment
         android:id="@+id/SigninInformationPasswordFragment"
-        android:name="br.com.pedrohenriquemoura.uberhub.ui.signin.SigninInformationPasswordFragment"
+        android:name="br.com.pedrohenriquemoura.uberhub.signin.view.SigninInformationPasswordFragment"
         android:label="fragment_signin_information_password"
         tools:layout="@layout/fragment_signin_information_password" />
 

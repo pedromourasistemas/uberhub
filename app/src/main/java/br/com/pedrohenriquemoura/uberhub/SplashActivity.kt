@@ -1,12 +1,11 @@
-package br.com.pedrohenriquemoura.uberhub.ui
+package br.com.pedrohenriquemoura.uberhub
 
 import android.content.Intent
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
 import androidx.appcompat.app.AppCompatActivity
-import br.com.pedrohenriquemoura.uberhub.R
-import br.com.pedrohenriquemoura.uberhub.ui.signin.SigninInitialActivity
+import br.com.pedrohenriquemoura.uberhub.signin.view.SigninInitialActivity
 
 class SplashActivity : AppCompatActivity() {
 

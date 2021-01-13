@@ -1,0 +1,7 @@
+<resources>
+
+    <string name="btn_next">Continuar</string>
+    <string name="label_not_have_account">Não possui uma conta? <font color='#5000B8'><b>Clique aqui</b></font></string>
+    <string name="btn_open">Entrar</string>
+
+</resources>

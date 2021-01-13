@@ -1,4 +1,4 @@
-package br.com.pedrohenriquemoura.uberhub.ui.signin
+package br.com.pedrohenriquemoura.uberhub
 
 class SigninModel(
     val email: String,

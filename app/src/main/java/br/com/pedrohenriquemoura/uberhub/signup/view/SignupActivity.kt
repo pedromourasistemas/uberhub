@@ -1,4 +1,4 @@
-package br.com.pedrohenriquemoura.uberhub.ui.signup
+package br.com.pedrohenriquemoura.uberhub.signup.view
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity

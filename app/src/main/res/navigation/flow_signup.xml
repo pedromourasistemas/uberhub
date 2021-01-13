@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/signupNameInformationFragment"
-        android:name="br.com.pedrohenriquemoura.uberhub.ui.signup.SignupNameInformationFragment"
+        android:name="br.com.pedrohenriquemoura.uberhub.signup.view.SignupNameInformationFragment"
         android:label="fragment_signup_name_information"
         tools:layout="@layout/fragment_signup_name_information">
 
@@ -19,7 +19,7 @@
 
     <fragment
         android:id="@+id/SignupBirthdayFragment"
-        android:name="br.com.pedrohenriquemoura.uberhub.ui.signup.SignupBirthdayFragment"
+        android:name="br.com.pedrohenriquemoura.uberhub.signup.view.SignupBirthdayFragment"
         android:label="fragment_signup_birthday"
         tools:layout="@layout/fragment_signup_birthday">
 
@@ -31,7 +31,7 @@
 
     <fragment
         android:id="@+id/SignupPhoneFragment"
-        android:name="br.com.pedrohenriquemoura.uberhub.ui.signup.SignupPhoneFragment"
+        android:name="br.com.pedrohenriquemoura.uberhub.signup.view.SignupPhoneFragment"
         android:label="fragment_signup_phone"
         tools:layout="@layout/fragment_signup_phone">
 
@@ -43,7 +43,7 @@
 
     <fragment
         android:id="@+id/SignupCityFragment"
-        android:name="br.com.pedrohenriquemoura.uberhub.ui.signup.SignupCityFragment"
+        android:name="br.com.pedrohenriquemoura.uberhub.signup.view.SignupCityFragment"
         android:label="fragment_signup_city"
         tools:layout="@layout/fragment_signup_city">
 
@@ -56,7 +56,7 @@
 
     <fragment
         android:id="@+id/SignupEmailFragment"
-        android:name="br.com.pedrohenriquemoura.uberhub.ui.signup.SignupEmailFragment"
+        android:name="br.com.pedrohenriquemoura.uberhub.signup.view.SignupEmailFragment"
         android:label="fragment_signup_email"
         tools:layout="@layout/fragment_signup_email">
 
@@ -69,7 +69,7 @@
 
     <fragment
         android:id="@+id/SignupPasswordFragment"
-        android:name="br.com.pedrohenriquemoura.uberhub.ui.signup.SignupPasswordFragment"
+        android:name="br.com.pedrohenriquemoura.uberhub.signup.view.SignupPasswordFragment"
         android:label="fragment_signup_password"
         tools:layout="@layout/fragment_signup_password">
 
@@ -82,7 +82,7 @@
 
     <fragment
         android:id="@+id/SignupCreatedSuccessFragment"
-        android:name="br.com.pedrohenriquemoura.uberhub.ui.signup.SignupCreatedSuccessFragment"
+        android:name="br.com.pedrohenriquemoura.uberhub.signup.view.SignupCreatedSuccessFragment"
         android:label="fragment_signup_created_success"
         tools:layout="@layout/fragment_signup_created_success" />
 </navigation>
